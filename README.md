@@ -1,5 +1,5 @@
 # master-thesis-code
-Code dump from my master thesis on "Fitting Room Acoustic Simulations for Early Reflections to Measured Room Impulse"
+Code dump from my master thesis on "Fitting Room Acoustic Simulations for Early Reflections to Measured Room Impulse Responses"
 
 Included parts:
 - Core algorithm and utilities for extrapolating SDM-SRIRs to different source and listener locations in a room with an image source model (`src` folder, `matlab` folder, see abstract for details on topic)
@@ -10,7 +10,7 @@ Included parts:
 
 ## Thesis Abstract
 
-**Fitting Room Acoustic Simulations for Early Reflections to Measured Room Impulse** by Johannes Fried
+**Fitting Room Acoustic Simulations for Early Reflections to Measured Room Impulse Responses** by Johannes Fried
 
 Capturing room acoustics for interactive experiences has applications in cultural heritage, audio production, and marketing. Ideally, a room is captured with few measurements and later heard spatially at any listening position, with arbitrary source position and directivity. This thesis approximates the required changes in early reflections using a simple image source model (ISM) without visibility checking or diffraction. Instead, reflections are extracted from spatial room impulse responses (SRIRs), ignoring invisible reflections and modeling absorption, diffusion, and diffraction by an extracted impulse response. The algorithm builds upon the binaural spatial decomposition method (BinauralSDM) by quantizing the direction of arrival (DoA) to potential image sources instead of arbitrary directions. The ISM is used to extrapolate the SRIR to different source-listener combinations and render binaural room impulse responses (BRIRs), which are evaluated with objective metrics and a listening test.
 
