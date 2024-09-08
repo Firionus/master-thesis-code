@@ -1,0 +1,10 @@
+version: '2'
+services:
+  webmushra:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/var/www/html
+    ports:
+      - "8000:80"

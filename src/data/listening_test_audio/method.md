@@ -1,0 +1,2 @@
+- Go to https://avtshare01.rz.tu-ilmenau.de/avt-ecoclass-vr/audio/ and download the files needed in the REAPER file. Only `6_3` and `10_4` were used in the thesis in the end
+- In REAPER, export to the "processed" subfolder here

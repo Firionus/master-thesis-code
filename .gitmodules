@@ -1,0 +1,6 @@
+[submodule "matlab/SDMtools/BinauralSDM"]
+	path = matlab/SDMtools/BinauralSDM
+	url = https://github.com/Firionus/BinauralSDM.git
+[submodule "matlab/SDMtools/SOFAtoolbox"]
+	path = matlab/SDMtools/SOFAtoolbox
+	url = https://github.com/sofacoustics/SOFAtoolbox.git

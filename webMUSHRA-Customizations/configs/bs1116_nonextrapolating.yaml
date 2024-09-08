@@ -1,0 +1,259 @@
+# test config bs11.16 page, waveform, 11 conditions, no looping
+
+
+testname: BS.1116 Reference vs Nonextrapolating
+testId: bs1116_nonextrapolating
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
+remoteService: service/write.php
+
+
+pages:
+
+    - type: bs1116
+      id: trial0
+      name: Nonextrapolating AB 0/19
+      content: test description
+      showWaveform: true
+      enableLooping: false 
+      reference: audio/00-reference.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: audio/00-nonextrapolating.wav
+
+    - type: bs1116
+      id: trial1
+      name: Nonextrapolating AB 1/19
+      content: test description
+      showWaveform: true
+      enableLooping: false 
+      reference: audio/01-reference.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: audio/01-nonextrapolating.wav
+
+    - type: bs1116
+      id: trial2
+      name: Nonextrapolating AB 2/19
+      content: test description
+      showWaveform: true
+      enableLooping: false 
+      reference: audio/02-reference.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: audio/02-nonextrapolating.wav
+
+    - type: bs1116
+      id: trial3
+      name: Nonextrapolating AB 3/19
+      content: test description
+      showWaveform: true
+      enableLooping: false 
+      reference: audio/03-reference.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: audio/03-nonextrapolating.wav
+
+    - type: bs1116
+      id: trial4
+      name: Nonextrapolating AB 4/19
+      content: test description
+      showWaveform: true
+      enableLooping: false 
+      reference: audio/04-reference.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: audio/04-nonextrapolating.wav
+
+    - type: bs1116
+      id: trial5
+      name: Nonextrapolating AB 5/19
+      content: test description
+      showWaveform: true
+      enableLooping: false 
+      reference: audio/05-reference.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: audio/05-nonextrapolating.wav
+
+    - type: bs1116
+      id: trial6
+      name: Nonextrapolating AB 6/19
+      content: test description
+      showWaveform: true
+      enableLooping: false 
+      reference: audio/06-reference.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: audio/06-nonextrapolating.wav
+
+    - type: bs1116
+      id: trial7
+      name: Nonextrapolating AB 7/19
+      content: test description
+      showWaveform: true
+      enableLooping: false 
+      reference: audio/07-reference.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: audio/07-nonextrapolating.wav
+
+    - type: bs1116
+      id: trial8
+      name: Nonextrapolating AB 8/19
+      content: test description
+      showWaveform: true
+      enableLooping: false 
+      reference: audio/08-reference.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: audio/08-nonextrapolating.wav
+
+    - type: bs1116
+      id: trial9
+      name: Nonextrapolating AB 9/19
+      content: test description
+      showWaveform: true
+      enableLooping: false 
+      reference: audio/09-reference.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: audio/09-nonextrapolating.wav
+
+    - type: bs1116
+      id: trial10
+      name: Nonextrapolating AB 10/19
+      content: test description
+      showWaveform: true
+      enableLooping: false 
+      reference: audio/10-reference.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: audio/10-nonextrapolating.wav
+
+    - type: bs1116
+      id: trial11
+      name: Nonextrapolating AB 11/19
+      content: test description
+      showWaveform: true
+      enableLooping: false 
+      reference: audio/11-reference.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: audio/11-nonextrapolating.wav
+
+    - type: bs1116
+      id: trial12
+      name: Nonextrapolating AB 12/19
+      content: test description
+      showWaveform: true
+      enableLooping: false 
+      reference: audio/12-reference.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: audio/12-nonextrapolating.wav
+
+    - type: bs1116
+      id: trial13
+      name: Nonextrapolating AB 13/19
+      content: test description
+      showWaveform: true
+      enableLooping: false 
+      reference: audio/13-reference.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: audio/13-nonextrapolating.wav
+
+    - type: bs1116
+      id: trial14
+      name: Nonextrapolating AB 14/19
+      content: test description
+      showWaveform: true
+      enableLooping: false 
+      reference: audio/14-reference.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: audio/14-nonextrapolating.wav
+
+    - type: bs1116
+      id: trial15
+      name: Nonextrapolating AB 15/19
+      content: test description
+      showWaveform: true
+      enableLooping: false 
+      reference: audio/15-reference.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: audio/15-nonextrapolating.wav
+
+    - type: bs1116
+      id: trial16
+      name: Nonextrapolating AB 16/19
+      content: test description
+      showWaveform: true
+      enableLooping: false 
+      reference: audio/16-reference.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: audio/16-nonextrapolating.wav
+
+    - type: bs1116
+      id: trial17
+      name: Nonextrapolating AB 17/19
+      content: test description
+      showWaveform: true
+      enableLooping: false 
+      reference: audio/17-reference.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: audio/17-nonextrapolating.wav
+
+    - type: bs1116
+      id: trial18
+      name: Nonextrapolating AB 18/19
+      content: test description
+      showWaveform: true
+      enableLooping: false 
+      reference: audio/18-reference.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: audio/18-nonextrapolating.wav
+
+    - type: bs1116
+      id: trial19
+      name: Nonextrapolating AB 19/19
+      content: test description
+      showWaveform: true
+      enableLooping: false 
+      reference: audio/19-reference.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: audio/19-nonextrapolating.wav
+
+
+    - type: finish
+      name: Thank you
+      content: Thank you for attending
+      showResults: true
+      writeResults: true

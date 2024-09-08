@@ -1,0 +1,49 @@
+[project]
+name = "src"
+version = "0.1.0"
+description = "Visualize early reflections from robot dataset"
+authors = [{ name = "Johannes Fried", email = "jcmf.schule@gmail.com" }]
+dependencies = [
+    "ipykernel>=6.29.3",
+    "matplotlib>=3.9.0",
+    "sofar>=1.1.3",
+    "numpy>=1.26.4",
+    "scipy>=1.12.0",
+    "pyside6>=6.6.3",
+    "astropy>=6.0.1",
+    "pandas>=2.2.1",
+    "polars>=0.20.18",
+    "soundfile>=0.12.1",
+    "nbformat>=5.10.4",
+    "pyfar @ git+https://github.com/pyfar/pyfar.git",
+    "matlabengine>=24.1.2",
+    "haggis>=0.12.0",
+    "sounddevice>=0.4.7",
+    "pyrato @ git+https://github.com/Firionus/pyrato.git@multi-channel-edc",
+    "py-spy>=0.3.14",
+    "hvplot>=0.10.0",
+    "pyarrow>=17.0.0",
+    "seaborn>=0.13.2",
+    "scikit-learn>=1.5.1",
+    "pyperclip>=1.9.0",
+    "statsmodels>=0.14.2",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "B"]

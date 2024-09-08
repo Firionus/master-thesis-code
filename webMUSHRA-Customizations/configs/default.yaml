@@ -1,0 +1,466 @@
+testname: Hörtest Masterarbeit Johannes Fried
+testId: listening_test_fried
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
+remoteService: service/write.php
+language: de
+
+pages:
+  - type: generic
+    id: first_page
+    name: Willkommen
+    content: Willkommen zu meinem Hörtest!
+
+  - type: volume
+    id: vol
+    name: Lautstärke
+    content: Bitte stelle die Lautstärke so ein, dass du die Details des Signals gut wahrnehmen kannst. Du kannst im Training wieder zu dieser Seite zurückkehren und die Einstellung ändern.
+    stimulus: audio2/00-reference.wav
+    defaultVolume: 0.5
+
+
+
+
+
+  - type: mushra
+    id: trial14
+    name: Training 1
+    content: 1. Halte deinen Kopf während dem Hören ruhig. <br><br>2. Bewerte die Ähnlichkeit der Signale zur Referenz: <br>- Excellent - Exzellente Ähnlichkeit zur Referenz<br>- Good - Gute Ähnlichkeit zur Referenz<br>- Fair - einigermaßen gute Ähnlichkeit zur Referenz<br>- Poor - bescheidene Ähnlichkeit zur Referenz<br>- Bad - Schlechte Ähnlichkeit zur Referenz<br><br>Die Reihenfolge der Signale ist zufällig, eines davon ist identisch zur Referenz. <br><br>Bewerte immer so, wie du es hörst - du kannst nichts falsch machen!<br><br>3. Berücksichtige alle drei Kriterien in deiner Wertung:<br>- Klangfarbe und Dynamik<br>- Raum und Zeitverhalten<br>- Geometrie
+    showWaveform: true
+    enableLooping: false
+    reference: audio2/14-reference.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      bad: audio2/14-bad.wav
+      bad_filtered: audio2/14-bad_filtered.wav
+      lower_anchor: audio2/14-lower_anchor.wav
+      mid_anchor: audio2/14-mid_anchor.wav
+  - type: generic
+    id: questionnaire14
+    name: Fragebogen Training 1
+    content: Wechsle zum Fragebogen für Training 1. 
+
+  - type: mushra
+    id: trial11
+    name: Training 2
+    content: 1. Halte deinen Kopf während dem Hören ruhig. <br><br>2. Bewerte die Ähnlichkeit der Signale zur Referenz: <br>- Excellent - Exzellente Ähnlichkeit zur Referenz<br>- Good - Gute Ähnlichkeit zur Referenz<br>- Fair - einigermaßen gute Ähnlichkeit zur Referenz<br>- Poor - bescheidene Ähnlichkeit zur Referenz<br>- Bad - Schlechte Ähnlichkeit zur Referenz<br><br>Die Reihenfolge der Signale ist zufällig, eines davon ist identisch zur Referenz. <br><br>Bewerte immer so, wie du es hörst - du kannst nichts falsch machen!<br><br>3. Berücksichtige alle drei Kriterien in deiner Wertung:<br>- Klangfarbe und Dynamik<br>- Raum und Zeitverhalten<br>- Geometrie
+    showWaveform: true
+    enableLooping: false
+    reference: audio2/11-reference.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      bad: audio2/11-bad.wav
+      bad_filtered: audio2/11-bad_filtered.wav
+      lower_anchor: audio2/11-lower_anchor.wav
+      mid_anchor: audio2/11-mid_anchor.wav
+  - type: generic
+    id: questionnaire11
+    name: Fragebogen Training 2
+    content: Wechsle zum Fragebogen für Training 2. 
+
+  - type: mushra
+    id: trial0
+    name: Test 1
+    content: 1. Halte deinen Kopf während dem Hören ruhig. <br><br>2. Bewerte die Ähnlichkeit der Signale zur Referenz: <br>- Excellent - Exzellente Ähnlichkeit zur Referenz<br>- Good - Gute Ähnlichkeit zur Referenz<br>- Fair - einigermaßen gute Ähnlichkeit zur Referenz<br>- Poor - bescheidene Ähnlichkeit zur Referenz<br>- Bad - Schlechte Ähnlichkeit zur Referenz<br><br>Die Reihenfolge der Signale ist zufällig, eines davon ist identisch zur Referenz. <br><br>Bewerte immer so, wie du es hörst - du kannst nichts falsch machen!<br><br>3. Berücksichtige alle drei Kriterien in deiner Wertung:<br>- Klangfarbe und Dynamik<br>- Raum und Zeitverhalten<br>- Geometrie
+    showWaveform: true
+    enableLooping: false
+    reference: audio2/00-reference.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      bad: audio2/00-bad.wav
+      bad_filtered: audio2/00-bad_filtered.wav
+      lower_anchor: audio2/00-lower_anchor.wav
+      mid_anchor: audio2/00-mid_anchor.wav
+  - type: generic
+    id: questionnaire0
+    name: Fragebogen Test 1
+    content: Wechsle zum Fragebogen für Test 1. 
+
+  - type: mushra
+    id: trial1
+    name: Test 2
+    content: 1. Halte deinen Kopf während dem Hören ruhig. <br><br>2. Bewerte die Ähnlichkeit der Signale zur Referenz: <br>- Excellent - Exzellente Ähnlichkeit zur Referenz<br>- Good - Gute Ähnlichkeit zur Referenz<br>- Fair - einigermaßen gute Ähnlichkeit zur Referenz<br>- Poor - bescheidene Ähnlichkeit zur Referenz<br>- Bad - Schlechte Ähnlichkeit zur Referenz<br><br>Die Reihenfolge der Signale ist zufällig, eines davon ist identisch zur Referenz. <br><br>Bewerte immer so, wie du es hörst - du kannst nichts falsch machen!<br><br>3. Berücksichtige alle drei Kriterien in deiner Wertung:<br>- Klangfarbe und Dynamik<br>- Raum und Zeitverhalten<br>- Geometrie
+    showWaveform: true
+    enableLooping: false
+    reference: audio2/01-reference.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      bad: audio2/01-bad.wav
+      bad_filtered: audio2/01-bad_filtered.wav
+      lower_anchor: audio2/01-lower_anchor.wav
+      mid_anchor: audio2/01-mid_anchor.wav
+  - type: generic
+    id: questionnaire1
+    name: Fragebogen Test 2
+    content: Wechsle zum Fragebogen für Test 2. 
+
+  - type: mushra
+    id: trial2
+    name: Test 3
+    content: 1. Halte deinen Kopf während dem Hören ruhig. <br><br>2. Bewerte die Ähnlichkeit der Signale zur Referenz: <br>- Excellent - Exzellente Ähnlichkeit zur Referenz<br>- Good - Gute Ähnlichkeit zur Referenz<br>- Fair - einigermaßen gute Ähnlichkeit zur Referenz<br>- Poor - bescheidene Ähnlichkeit zur Referenz<br>- Bad - Schlechte Ähnlichkeit zur Referenz<br><br>Die Reihenfolge der Signale ist zufällig, eines davon ist identisch zur Referenz. <br><br>Bewerte immer so, wie du es hörst - du kannst nichts falsch machen!<br><br>3. Berücksichtige alle drei Kriterien in deiner Wertung:<br>- Klangfarbe und Dynamik<br>- Raum und Zeitverhalten<br>- Geometrie
+    showWaveform: true
+    enableLooping: false
+    reference: audio2/02-reference.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      bad: audio2/02-bad.wav
+      bad_filtered: audio2/02-bad_filtered.wav
+      lower_anchor: audio2/02-lower_anchor.wav
+      mid_anchor: audio2/02-mid_anchor.wav
+  - type: generic
+    id: questionnaire2
+    name: Fragebogen Test 3
+    content: Wechsle zum Fragebogen für Test 3. 
+
+  - type: mushra
+    id: trial3
+    name: Test 4
+    content: 1. Halte deinen Kopf während dem Hören ruhig. <br><br>2. Bewerte die Ähnlichkeit der Signale zur Referenz: <br>- Excellent - Exzellente Ähnlichkeit zur Referenz<br>- Good - Gute Ähnlichkeit zur Referenz<br>- Fair - einigermaßen gute Ähnlichkeit zur Referenz<br>- Poor - bescheidene Ähnlichkeit zur Referenz<br>- Bad - Schlechte Ähnlichkeit zur Referenz<br><br>Die Reihenfolge der Signale ist zufällig, eines davon ist identisch zur Referenz. <br><br>Bewerte immer so, wie du es hörst - du kannst nichts falsch machen!<br><br>3. Berücksichtige alle drei Kriterien in deiner Wertung:<br>- Klangfarbe und Dynamik<br>- Raum und Zeitverhalten<br>- Geometrie
+    showWaveform: true
+    enableLooping: false
+    reference: audio2/03-reference.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      bad: audio2/03-bad.wav
+      bad_filtered: audio2/03-bad_filtered.wav
+      lower_anchor: audio2/03-lower_anchor.wav
+      mid_anchor: audio2/03-mid_anchor.wav
+  - type: generic
+    id: questionnaire3
+    name: Fragebogen Test 4
+    content: Wechsle zum Fragebogen für Test 4. 
+
+  - type: mushra
+    id: trial4
+    name: Test 5
+    content: 1. Halte deinen Kopf während dem Hören ruhig. <br><br>2. Bewerte die Ähnlichkeit der Signale zur Referenz: <br>- Excellent - Exzellente Ähnlichkeit zur Referenz<br>- Good - Gute Ähnlichkeit zur Referenz<br>- Fair - einigermaßen gute Ähnlichkeit zur Referenz<br>- Poor - bescheidene Ähnlichkeit zur Referenz<br>- Bad - Schlechte Ähnlichkeit zur Referenz<br><br>Die Reihenfolge der Signale ist zufällig, eines davon ist identisch zur Referenz. <br><br>Bewerte immer so, wie du es hörst - du kannst nichts falsch machen!<br><br>3. Berücksichtige alle drei Kriterien in deiner Wertung:<br>- Klangfarbe und Dynamik<br>- Raum und Zeitverhalten<br>- Geometrie
+    showWaveform: true
+    enableLooping: false
+    reference: audio2/04-reference.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      bad: audio2/04-bad.wav
+      bad_filtered: audio2/04-bad_filtered.wav
+      lower_anchor: audio2/04-lower_anchor.wav
+      mid_anchor: audio2/04-mid_anchor.wav
+  - type: generic
+    id: questionnaire4
+    name: Fragebogen Test 5
+    content: Wechsle zum Fragebogen für Test 5. 
+
+  - type: mushra
+    id: trial5
+    name: Test 6
+    content: 1. Halte deinen Kopf während dem Hören ruhig. <br><br>2. Bewerte die Ähnlichkeit der Signale zur Referenz: <br>- Excellent - Exzellente Ähnlichkeit zur Referenz<br>- Good - Gute Ähnlichkeit zur Referenz<br>- Fair - einigermaßen gute Ähnlichkeit zur Referenz<br>- Poor - bescheidene Ähnlichkeit zur Referenz<br>- Bad - Schlechte Ähnlichkeit zur Referenz<br><br>Die Reihenfolge der Signale ist zufällig, eines davon ist identisch zur Referenz. <br><br>Bewerte immer so, wie du es hörst - du kannst nichts falsch machen!<br><br>3. Berücksichtige alle drei Kriterien in deiner Wertung:<br>- Klangfarbe und Dynamik<br>- Raum und Zeitverhalten<br>- Geometrie
+    showWaveform: true
+    enableLooping: false
+    reference: audio2/05-reference.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      bad: audio2/05-bad.wav
+      bad_filtered: audio2/05-bad_filtered.wav
+      lower_anchor: audio2/05-lower_anchor.wav
+      mid_anchor: audio2/05-mid_anchor.wav
+  - type: generic
+    id: questionnaire5
+    name: Fragebogen Test 6
+    content: Wechsle zum Fragebogen für Test 6. 
+
+  - type: mushra
+    id: trial6
+    name: Test 7
+    content: 1. Halte deinen Kopf während dem Hören ruhig. <br><br>2. Bewerte die Ähnlichkeit der Signale zur Referenz: <br>- Excellent - Exzellente Ähnlichkeit zur Referenz<br>- Good - Gute Ähnlichkeit zur Referenz<br>- Fair - einigermaßen gute Ähnlichkeit zur Referenz<br>- Poor - bescheidene Ähnlichkeit zur Referenz<br>- Bad - Schlechte Ähnlichkeit zur Referenz<br><br>Die Reihenfolge der Signale ist zufällig, eines davon ist identisch zur Referenz. <br><br>Bewerte immer so, wie du es hörst - du kannst nichts falsch machen!<br><br>3. Berücksichtige alle drei Kriterien in deiner Wertung:<br>- Klangfarbe und Dynamik<br>- Raum und Zeitverhalten<br>- Geometrie
+    showWaveform: true
+    enableLooping: false
+    reference: audio2/06-reference.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      bad: audio2/06-bad.wav
+      bad_filtered: audio2/06-bad_filtered.wav
+      lower_anchor: audio2/06-lower_anchor.wav
+      mid_anchor: audio2/06-mid_anchor.wav
+  - type: generic
+    id: questionnaire6
+    name: Fragebogen Test 7
+    content: Wechsle zum Fragebogen für Test 7. 
+
+  - type: mushra
+    id: trial7
+    name: Test 8
+    content: 1. Halte deinen Kopf während dem Hören ruhig. <br><br>2. Bewerte die Ähnlichkeit der Signale zur Referenz: <br>- Excellent - Exzellente Ähnlichkeit zur Referenz<br>- Good - Gute Ähnlichkeit zur Referenz<br>- Fair - einigermaßen gute Ähnlichkeit zur Referenz<br>- Poor - bescheidene Ähnlichkeit zur Referenz<br>- Bad - Schlechte Ähnlichkeit zur Referenz<br><br>Die Reihenfolge der Signale ist zufällig, eines davon ist identisch zur Referenz. <br><br>Bewerte immer so, wie du es hörst - du kannst nichts falsch machen!<br><br>3. Berücksichtige alle drei Kriterien in deiner Wertung:<br>- Klangfarbe und Dynamik<br>- Raum und Zeitverhalten<br>- Geometrie
+    showWaveform: true
+    enableLooping: false
+    reference: audio2/07-reference.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      bad: audio2/07-bad.wav
+      bad_filtered: audio2/07-bad_filtered.wav
+      lower_anchor: audio2/07-lower_anchor.wav
+      mid_anchor: audio2/07-mid_anchor.wav
+  - type: generic
+    id: questionnaire7
+    name: Fragebogen Test 8
+    content: Wechsle zum Fragebogen für Test 8. 
+
+  - type: mushra
+    id: trial8
+    name: Test 9
+    content: 1. Halte deinen Kopf während dem Hören ruhig. <br><br>2. Bewerte die Ähnlichkeit der Signale zur Referenz: <br>- Excellent - Exzellente Ähnlichkeit zur Referenz<br>- Good - Gute Ähnlichkeit zur Referenz<br>- Fair - einigermaßen gute Ähnlichkeit zur Referenz<br>- Poor - bescheidene Ähnlichkeit zur Referenz<br>- Bad - Schlechte Ähnlichkeit zur Referenz<br><br>Die Reihenfolge der Signale ist zufällig, eines davon ist identisch zur Referenz. <br><br>Bewerte immer so, wie du es hörst - du kannst nichts falsch machen!<br><br>3. Berücksichtige alle drei Kriterien in deiner Wertung:<br>- Klangfarbe und Dynamik<br>- Raum und Zeitverhalten<br>- Geometrie
+    showWaveform: true
+    enableLooping: false
+    reference: audio2/08-reference.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      bad: audio2/08-bad.wav
+      bad_filtered: audio2/08-bad_filtered.wav
+      lower_anchor: audio2/08-lower_anchor.wav
+      mid_anchor: audio2/08-mid_anchor.wav
+  - type: generic
+    id: questionnaire8
+    name: Fragebogen Test 9
+    content: Wechsle zum Fragebogen für Test 9. 
+
+  - type: generic
+    id: pause
+    name: Pause
+    content: Die Hälfte ist geschafft, Zeit für eine kurze Pause! Wenn du möchtest, stehe kurz auf, strecke dich oder bewege deinen Hals ein wenig. Dann geht's weiter. 
+
+  - type: mushra
+    id: trial9
+    name: Test 10
+    content: 1. Halte deinen Kopf während dem Hören ruhig. <br><br>2. Bewerte die Ähnlichkeit der Signale zur Referenz: <br>- Excellent - Exzellente Ähnlichkeit zur Referenz<br>- Good - Gute Ähnlichkeit zur Referenz<br>- Fair - einigermaßen gute Ähnlichkeit zur Referenz<br>- Poor - bescheidene Ähnlichkeit zur Referenz<br>- Bad - Schlechte Ähnlichkeit zur Referenz<br><br>Die Reihenfolge der Signale ist zufällig, eines davon ist identisch zur Referenz. <br><br>Bewerte immer so, wie du es hörst - du kannst nichts falsch machen!<br><br>3. Berücksichtige alle drei Kriterien in deiner Wertung:<br>- Klangfarbe und Dynamik<br>- Raum und Zeitverhalten<br>- Geometrie
+    showWaveform: true
+    enableLooping: false
+    reference: audio2/09-reference.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      bad: audio2/09-bad.wav
+      bad_filtered: audio2/09-bad_filtered.wav
+      lower_anchor: audio2/09-lower_anchor.wav
+      mid_anchor: audio2/09-mid_anchor.wav
+  - type: generic
+    id: questionnaire9
+    name: Fragebogen Test 10
+    content: Wechsle zum Fragebogen für Test 10. 
+
+  - type: mushra
+    id: trial10
+    name: Test 11
+    content: 1. Halte deinen Kopf während dem Hören ruhig. <br><br>2. Bewerte die Ähnlichkeit der Signale zur Referenz: <br>- Excellent - Exzellente Ähnlichkeit zur Referenz<br>- Good - Gute Ähnlichkeit zur Referenz<br>- Fair - einigermaßen gute Ähnlichkeit zur Referenz<br>- Poor - bescheidene Ähnlichkeit zur Referenz<br>- Bad - Schlechte Ähnlichkeit zur Referenz<br><br>Die Reihenfolge der Signale ist zufällig, eines davon ist identisch zur Referenz. <br><br>Bewerte immer so, wie du es hörst - du kannst nichts falsch machen!<br><br>3. Berücksichtige alle drei Kriterien in deiner Wertung:<br>- Klangfarbe und Dynamik<br>- Raum und Zeitverhalten<br>- Geometrie
+    showWaveform: true
+    enableLooping: false
+    reference: audio2/10-reference.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      bad: audio2/10-bad.wav
+      bad_filtered: audio2/10-bad_filtered.wav
+      lower_anchor: audio2/10-lower_anchor.wav
+      mid_anchor: audio2/10-mid_anchor.wav
+  - type: generic
+    id: questionnaire10
+    name: Fragebogen Test 11
+    content: Wechsle zum Fragebogen für Test 11. 
+
+  - type: mushra
+    id: trial13
+    name: Test 12
+    content: 1. Halte deinen Kopf während dem Hören ruhig. <br><br>2. Bewerte die Ähnlichkeit der Signale zur Referenz: <br>- Excellent - Exzellente Ähnlichkeit zur Referenz<br>- Good - Gute Ähnlichkeit zur Referenz<br>- Fair - einigermaßen gute Ähnlichkeit zur Referenz<br>- Poor - bescheidene Ähnlichkeit zur Referenz<br>- Bad - Schlechte Ähnlichkeit zur Referenz<br><br>Die Reihenfolge der Signale ist zufällig, eines davon ist identisch zur Referenz. <br><br>Bewerte immer so, wie du es hörst - du kannst nichts falsch machen!<br><br>3. Berücksichtige alle drei Kriterien in deiner Wertung:<br>- Klangfarbe und Dynamik<br>- Raum und Zeitverhalten<br>- Geometrie
+    showWaveform: true
+    enableLooping: false
+    reference: audio2/13-reference.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      bad: audio2/13-bad.wav
+      bad_filtered: audio2/13-bad_filtered.wav
+      lower_anchor: audio2/13-lower_anchor.wav
+      mid_anchor: audio2/13-mid_anchor.wav
+  - type: generic
+    id: questionnaire13
+    name: Fragebogen Test 12
+    content: Wechsle zum Fragebogen für Test 12. 
+
+  - type: mushra
+    id: trial12
+    name: Test 13
+    content: 1. Halte deinen Kopf während dem Hören ruhig. <br><br>2. Bewerte die Ähnlichkeit der Signale zur Referenz: <br>- Excellent - Exzellente Ähnlichkeit zur Referenz<br>- Good - Gute Ähnlichkeit zur Referenz<br>- Fair - einigermaßen gute Ähnlichkeit zur Referenz<br>- Poor - bescheidene Ähnlichkeit zur Referenz<br>- Bad - Schlechte Ähnlichkeit zur Referenz<br><br>Die Reihenfolge der Signale ist zufällig, eines davon ist identisch zur Referenz. <br><br>Bewerte immer so, wie du es hörst - du kannst nichts falsch machen!<br><br>3. Berücksichtige alle drei Kriterien in deiner Wertung:<br>- Klangfarbe und Dynamik<br>- Raum und Zeitverhalten<br>- Geometrie
+    showWaveform: true
+    enableLooping: false
+    reference: audio2/12-reference.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      bad: audio2/12-bad.wav
+      bad_filtered: audio2/12-bad_filtered.wav
+      lower_anchor: audio2/12-lower_anchor.wav
+      mid_anchor: audio2/12-mid_anchor.wav
+  - type: generic
+    id: questionnaire12
+    name: Fragebogen Test 13
+    content: Wechsle zum Fragebogen für Test 13. 
+
+  - type: mushra
+    id: trial15
+    name: Test 14
+    content: 1. Halte deinen Kopf während dem Hören ruhig. <br><br>2. Bewerte die Ähnlichkeit der Signale zur Referenz: <br>- Excellent - Exzellente Ähnlichkeit zur Referenz<br>- Good - Gute Ähnlichkeit zur Referenz<br>- Fair - einigermaßen gute Ähnlichkeit zur Referenz<br>- Poor - bescheidene Ähnlichkeit zur Referenz<br>- Bad - Schlechte Ähnlichkeit zur Referenz<br><br>Die Reihenfolge der Signale ist zufällig, eines davon ist identisch zur Referenz. <br><br>Bewerte immer so, wie du es hörst - du kannst nichts falsch machen!<br><br>3. Berücksichtige alle drei Kriterien in deiner Wertung:<br>- Klangfarbe und Dynamik<br>- Raum und Zeitverhalten<br>- Geometrie
+    showWaveform: true
+    enableLooping: false
+    reference: audio2/15-reference.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      bad: audio2/15-bad.wav
+      bad_filtered: audio2/15-bad_filtered.wav
+      lower_anchor: audio2/15-lower_anchor.wav
+      mid_anchor: audio2/15-mid_anchor.wav
+  - type: generic
+    id: questionnaire15
+    name: Fragebogen Test 14
+    content: Wechsle zum Fragebogen für Test 14. 
+
+  - type: mushra
+    id: trial16
+    name: Test 15
+    content: 1. Halte deinen Kopf während dem Hören ruhig. <br><br>2. Bewerte die Ähnlichkeit der Signale zur Referenz: <br>- Excellent - Exzellente Ähnlichkeit zur Referenz<br>- Good - Gute Ähnlichkeit zur Referenz<br>- Fair - einigermaßen gute Ähnlichkeit zur Referenz<br>- Poor - bescheidene Ähnlichkeit zur Referenz<br>- Bad - Schlechte Ähnlichkeit zur Referenz<br><br>Die Reihenfolge der Signale ist zufällig, eines davon ist identisch zur Referenz. <br><br>Bewerte immer so, wie du es hörst - du kannst nichts falsch machen!<br><br>3. Berücksichtige alle drei Kriterien in deiner Wertung:<br>- Klangfarbe und Dynamik<br>- Raum und Zeitverhalten<br>- Geometrie
+    showWaveform: true
+    enableLooping: false
+    reference: audio2/16-reference.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      bad: audio2/16-bad.wav
+      bad_filtered: audio2/16-bad_filtered.wav
+      lower_anchor: audio2/16-lower_anchor.wav
+      mid_anchor: audio2/16-mid_anchor.wav
+  - type: generic
+    id: questionnaire16
+    name: Fragebogen Test 15
+    content: Wechsle zum Fragebogen für Test 15. 
+
+  - type: mushra
+    id: trial17
+    name: Test 16
+    content: 1. Halte deinen Kopf während dem Hören ruhig. <br><br>2. Bewerte die Ähnlichkeit der Signale zur Referenz: <br>- Excellent - Exzellente Ähnlichkeit zur Referenz<br>- Good - Gute Ähnlichkeit zur Referenz<br>- Fair - einigermaßen gute Ähnlichkeit zur Referenz<br>- Poor - bescheidene Ähnlichkeit zur Referenz<br>- Bad - Schlechte Ähnlichkeit zur Referenz<br><br>Die Reihenfolge der Signale ist zufällig, eines davon ist identisch zur Referenz. <br><br>Bewerte immer so, wie du es hörst - du kannst nichts falsch machen!<br><br>3. Berücksichtige alle drei Kriterien in deiner Wertung:<br>- Klangfarbe und Dynamik<br>- Raum und Zeitverhalten<br>- Geometrie
+    showWaveform: true
+    enableLooping: false
+    reference: audio2/17-reference.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      bad: audio2/17-bad.wav
+      bad_filtered: audio2/17-bad_filtered.wav
+      lower_anchor: audio2/17-lower_anchor.wav
+      mid_anchor: audio2/17-mid_anchor.wav
+  - type: generic
+    id: questionnaire17
+    name: Fragebogen Test 16
+    content: Wechsle zum Fragebogen für Test 16. 
+
+  - type: mushra
+    id: trial18
+    name: Test 17
+    content: 1. Halte deinen Kopf während dem Hören ruhig. <br><br>2. Bewerte die Ähnlichkeit der Signale zur Referenz: <br>- Excellent - Exzellente Ähnlichkeit zur Referenz<br>- Good - Gute Ähnlichkeit zur Referenz<br>- Fair - einigermaßen gute Ähnlichkeit zur Referenz<br>- Poor - bescheidene Ähnlichkeit zur Referenz<br>- Bad - Schlechte Ähnlichkeit zur Referenz<br><br>Die Reihenfolge der Signale ist zufällig, eines davon ist identisch zur Referenz. <br><br>Bewerte immer so, wie du es hörst - du kannst nichts falsch machen!<br><br>3. Berücksichtige alle drei Kriterien in deiner Wertung:<br>- Klangfarbe und Dynamik<br>- Raum und Zeitverhalten<br>- Geometrie
+    showWaveform: true
+    enableLooping: false
+    reference: audio2/18-reference.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      bad: audio2/18-bad.wav
+      bad_filtered: audio2/18-bad_filtered.wav
+      lower_anchor: audio2/18-lower_anchor.wav
+      mid_anchor: audio2/18-mid_anchor.wav
+  - type: generic
+    id: questionnaire18
+    name: Fragebogen Test 17
+    content: Wechsle zum Fragebogen für Test 17. 
+
+  - type: mushra
+    id: trial19
+    name: Test 18
+    content: 1. Halte deinen Kopf während dem Hören ruhig. <br><br>2. Bewerte die Ähnlichkeit der Signale zur Referenz: <br>- Excellent - Exzellente Ähnlichkeit zur Referenz<br>- Good - Gute Ähnlichkeit zur Referenz<br>- Fair - einigermaßen gute Ähnlichkeit zur Referenz<br>- Poor - bescheidene Ähnlichkeit zur Referenz<br>- Bad - Schlechte Ähnlichkeit zur Referenz<br><br>Die Reihenfolge der Signale ist zufällig, eines davon ist identisch zur Referenz. <br><br>Bewerte immer so, wie du es hörst - du kannst nichts falsch machen!<br><br>3. Berücksichtige alle drei Kriterien in deiner Wertung:<br>- Klangfarbe und Dynamik<br>- Raum und Zeitverhalten<br>- Geometrie
+    showWaveform: true
+    enableLooping: false
+    reference: audio2/19-reference.wav
+    createAnchor35: false
+    createAnchor70: false
+    randomize: true
+    showConditionNames: false
+    stimuli:
+      bad: audio2/19-bad.wav
+      bad_filtered: audio2/19-bad_filtered.wav
+      lower_anchor: audio2/19-lower_anchor.wav
+      mid_anchor: audio2/19-mid_anchor.wav
+  - type: generic
+    id: questionnaire19
+    name: Fragebogen Test 18
+    content: Wechsle zum Fragebogen für Test 18. 
+
+
+
+
+
+  - type: finish
+    name: Ergebnisse abspeichern
+    content: Bitte trage deine Hörer ID ein und sende dein Ergebnis ab!
+    showResults: true
+    writeResults: true
+    questionnaire:
+      - type: number
+        label: Hörer ID
+        name: ID
+        min: 0
+        max: 100
+        default: ""
